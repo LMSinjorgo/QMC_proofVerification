@@ -1,0 +1,15 @@
+./geng -cCtd2D3 7 triFreeBiconn_s7.g6
+./pickg -fp1:8 -e7:n7~b triFreeBiconn_s7.g6 triFreeNonBipartite_s7.g6
+./listg -o1el0 triFreeNonBipartite_s7.g6 humanReadable_s7.txt
+
+./geng -cCtd2D4 9 triFreeBiconn_s9.g6
+./pickg -fp1:290 -e9:n9~b triFreeBiconn_s9.g6 triFreeNonBipartite_s9.g6
+./listg -o1el0 triFreeNonBipartite_s9.g6 humanReadable_s9.txt
+
+./geng -cCtd2D5 11 triFreeBiconn_s11.g6
+./pickg -fp1:30970 -e11:n11~b triFreeBiconn_s11.g6 triFreeNonBipartite_s11.g6
+./listg -o1el0 triFreeNonBipartite_s11.g6 humanReadable_s11.txt
+
+./geng -cCtd2D6 13 triFreeBiconn_s13.g6
+./pickg -fp1:9720385 -e13:n13~b triFreeBiconn_s13.g6 triFreeNonBipartite_s13.g6
+./listg -o1el0 triFreeNonBipartite_s13.g6 humanReadable_s13.txt
