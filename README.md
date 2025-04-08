@@ -37,6 +37,7 @@ This code uses Gurobi for solving ILPs and MOSEK for solving SDPs. It is also po
 
 ## Usage of code
 (see the files in codeDirectory)
+
 Run the $\texttt{nauty}$ commands from $\texttt{nautyCommands.txt}$, to obtain the files humanReadable_s[X].txt, where $X \in \{ 7,9,11,13\}$ (the case $X=5$ does not require $\texttt{nauty}$). These files contain the graphs $G \in  \mathcal{G}_s$ for which we need to verify that $c(G,k) \leq  \lfloor s/2  \rfloor$.
 
 Then run verifyLemma\_s5\_to\_s13.mat. This code performs the full verification (which requires approximately 16 hours of computation time). Most of this time is spent on the case $s = 13$. The cases $s \in \{5,7,9,11\}$ require approximately 5 minutes. The codes verify\_s[X].mat, for $X \in \{5,7,9,11,13\}$, verify the cases of $X$ separately.
